@@ -13,23 +13,22 @@ The basic structure of these files look like the following:
 {
     "word1": [
         {
-            'pos': 'Part of Speech'
-            'definition': 'Some definition'
-            'sentences': ['Some Sentence', 'Another sentence']
+            "pos": "Part of Speech",
+            "definition": "Some definition",
+            "sentences": ["Some Sentence", "Another sentence"]
         },
         {
-            'pos': 'Another Part of Speech'
-            'definition': 'Another definition'
-            'sentences': ['Some Sentence', 'Another sentence']
+            "pos": "Another Part of Speech",
+            "definition": "Another definition",
+            "sentences": ["Some Sentence"]
         }
     ],
     "word2": [
         {
-            'pos': 'Part of Speech'
-            'definition': 'Some definition'
-            'sentences': ['Some Sentence', 'Another sentence']
+            "pos": "Part of Speech",
+            "definition": "Some definition",
+            "sentences": []
         }
-    ],
-    ...
+    ]
 }
 ```

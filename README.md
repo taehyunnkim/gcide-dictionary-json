@@ -4,11 +4,11 @@
 
 Using the XML files, this program parses the data using Python. This project is an extension of [gcide-dictionary-json](https://github.com/aviaryan/gcide-dictionary-json) by [Avi Aryan](https://github.com/aviaryan)
 
-## JSON Format
+## Output Files
 
 The formatted dictionary json files, arranged alphabetically are inside the [chapters](chapters/) folder. The all-in-one dictionary file is [dictionary.json](dictionary.json). Words that are included in the dictionary is inside [words.txt](words.txt).
 
-The basic structure of these files look like the following:
+The basic structure of the json files look like the following:
 ```json
 {
     "word1": [

@@ -94,7 +94,7 @@ if __name__ == '__main__':
 	for letter in chapters:
 		dictionary.update(chapters[letter])
 
-	print('Writing dictionary.json and words.json')
+	print('Writing dictionary.json and words.txt')
 	with open('dictionary.json', 'w', encoding='utf-8') as dictionary_file, open('words.txt', 'w', encoding='utf-8') as words:
 		json.dump(dictionary, dictionary_file, indent = True, ensure_ascii=True, sort_keys=True)
 		words.write("\n".join(all_words))
